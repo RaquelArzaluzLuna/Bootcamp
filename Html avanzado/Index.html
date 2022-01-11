@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Formularios</title>
+    </head>
+    <body>
+<form>
+    <input type="text"/>
+    <input type="date"/>
+    <input type="color"/>
+    <input type="password"/>
+    <input type="file"/>
+    <input type="checkbox"/>
+    <input type="radio"/>
+    <input type="submit"/>
+    <input type="button"/>
+    <input type="Enviar"/>
+</form>
+<button>Hola</button>
+<h1>Formulario</h1>
+     <form class="formulario">
+         <div class="nombre">
+         <label for="Nombre">Nombre</label>
+         <input id="Nombre" 
+         type="text" 
+         name="Nombre"
+         placeholder="Escribe tu nombre..."
+         required
+         />
+        </div>
+
+        <div class="Apellido">
+         <label
+         for=" Apellido">Apellido
+        </label> 
+        <input
+        id="Apellido"
+        type="text"
+        placeholder="Escribe tu apellido"
+        />
+        </div>
+
+<div class="password">
+    <label for="password">Contraseña</label>
+    <input id="Contraseña"
+     type="password"
+     name="pasword"
+     placeholder="Escribe tu contraseña..."
+     />
+</div>
+
+<div class="correo">
+    <label for="correo">Correo</label>
+    <input id="correo"
+    type="email"
+    name="Correo"
+    placeholder="Inserte su correo..."/>
+</div>
+<!--Fieldset es opcional-->
+
+<div class="enviar">
+    <input type="submit"
+    value="Enviar">
+    
+</div> 
+<br>    
+</form>
+    <form>
+    <fieldset>
+        <legend> Ingresa el numero</legend>
+        <label for="numero">Numero</label>
+        <input id="numero"
+        type="number"
+        name="numero"
+        min="0" max="18"/>
+
+        <label for="rango">Rango</label>
+        <input for="rango"
+        name="rango"
+        type="range"
+        main="50"/>
+    </fieldset>
+    </form>
+</br>
+    </body>
+    </html>
+</html>

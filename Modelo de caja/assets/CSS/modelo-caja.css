@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/92254.jpg);
+    background-repeat: 
+}
+
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+
+.subtitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 30px;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    font-size: 60px;
+    /*margin: 20px;*/
+    margin-bottom: 20px;
+    margin: 30px;
+    padding: 100px;
+    border-radius: 50%;
+}
+.rojo{
+    /*background: red;*/
+    border: 5px solid rgb(255, 156, 234);
+
+}
+.verde{
+    /*background-color: springgreen;*/
+    border: 5px solid greenyellow;
+}
+.azul{
+    /*background-color: teal;*/
+    border: 5px solid rgb(86, 217, 221);
+}

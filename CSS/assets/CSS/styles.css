@@ -1,0 +1,26 @@
+.encabezado{
+    /* font-size tamaño de fuente
+    medidas comunes: px, %, cm, rem */
+    font-size: 72px;
+    /* color de fuente*/
+    color: rgb(198, 124, 212);
+    /* background-color es para el color de fondo*/
+    background-color:#ADD8E6;
+    /* text-align: nos permite alinear el texto*/
+    text-align: center;
+    text-transform:capitalize;
+    font-style: italic;
+}
+
+body {
+    background-color: 	#cebdd6;
+}
+
+.texto{
+    color: lavender;
+    background-color: lightcoral;
+}
+p{
+    color: darkorchid;
+    background-color: rgb(191, 224, 222);
+}

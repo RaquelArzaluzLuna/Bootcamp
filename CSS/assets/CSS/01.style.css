@@ -1,0 +1,31 @@
+.encabezado{
+    font-size: 50px;
+     color: rgb(0, 0, 0);
+    text-transform:capitalize;
+    font-style: normal;
+}
+.blanco{
+    color: white;
+    font-style:italic;
+    font-size: 25px;
+}
+
+.beige{
+    color: lightyellow;
+    font-size: 25px;
+}
+.naranja{
+    color: darkorange;
+    font-size: 25px;
+}
+.rojo{
+    color: rgb(156, 21, 21);
+    font-style: 'Comic Sans';
+    font-size: 25px;
+    font-weight: bold;
+}
+body {
+    background-color:seagreen;
+}
+
+

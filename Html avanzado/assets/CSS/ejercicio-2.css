@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: cyan;
+}
+.tabla, tr, th {
+    border: 2px solid black;
+    width: 600px;
+   
+}
+table{
+    width: 600px;
+}
+
+td{
+    border:1px solid black;
+}

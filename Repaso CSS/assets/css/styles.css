@@ -1,0 +1,39 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+
+.menu{
+background-color: rgb(209, 159, 209);
+height: 50px;
+}
+.menu ul{
+width: 600px;
+margin:0 auto;
+text-align: center;
+}
+
+.menu .elemento{
+display: inline;
+margin: 0 20px;
+}
+
+.elemento a{
+font-size: 24px;
+color: white;
+text-decoration: none;
+line-height: 50px;
+font-family: Pacifico;
+transition: color 2s;
+
+}
+
+.menu .elemento:hover{
+/*background-color: cadetblue;*/
+
+}
+.elemento a:hover{
+color:aquamarine;
+font-size: 25px;
+}
